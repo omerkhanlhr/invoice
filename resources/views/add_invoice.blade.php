@@ -24,6 +24,7 @@
                         @foreach ($products as $product)
                             <option value="{{ $product->id }}">{{ $product->name }}</option>
                         @endforeach
+
                     </select>
                 </div>
                 <div class="row mb-3 form-check">
