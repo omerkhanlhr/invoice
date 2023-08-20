@@ -21,7 +21,7 @@
                 </div>
                 <div class="row mb-3 form-check">
                   <label for="exampleInputPassword1" class="form-label">Product Price</label>
-                  <input type="number" step="0.01" name="price" value="{{$products->price}}">
+                  <input type="number" step="0.01" name="price" value="{{$products->price}}" min="1">
                 </div>
                 <div class="text-center">
                     <button type="submit" class="btn btn-primary">Update Product</button>

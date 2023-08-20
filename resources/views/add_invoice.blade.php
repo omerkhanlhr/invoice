@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Add Products</title>
 </head>
-<h1 class="text-center">Add Products</h1>
+<h1 class="text-center">Add Invoice</h1>
 <body>
 <div class="container md-6">
     <div class="col-6">
@@ -43,7 +43,7 @@
                     <input type="number" name="qty" class="form-label">
                 </div>
                     <div class="text-center">
-                    <button type="submit" class="btn btn-primary">Add Product</button>
+                    <button type="submit" class="btn btn-primary">Create Invoice</button>
                 </div>
               </form>
 

@@ -21,12 +21,12 @@
                 </div>
                 <div class="row mb-3 form-check">
                   <label for="exampleInputPassword1" class="form-label">Product Price</label>
-                  <input type="number" step="0.01" name="price">
+                  <input type="number" step="0.01" name="price" min="1">
 
                 </div>
                 <div class="row mb-3 form-check">
                     <label for="quantity">Product Quantity</label>
-                  <input type="number" class="form-control" name="qty" id="exampleqty">
+                  <input type="number" class="form-control" name="qty" id="exampleqty" min="1">
                 </div>
                 <div class="text-center">
                     <button type="submit" class="btn btn-primary">Add Product</button>

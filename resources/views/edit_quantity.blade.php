@@ -17,7 +17,7 @@
                 @csrf
                 <div class="row mb-3 form-check">
                   <label for="exampleInputEmail1" class="form-label">Enter Quantity</label>
-                  <input type="number" class="form-control" name="qty" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <input type="number" class="form-control" name="qty" min="1" id="exampleInputEmail1" aria-describedby="emailHelp">
                 </div>
 
                 <div class="text-center">
